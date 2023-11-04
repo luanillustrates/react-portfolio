@@ -1,7 +1,7 @@
 export default function Contact() {
   return (
     <>
-      <h1>Contact Me</h1>
+      <h1 className="mb-5 text-9xl font-bold">Contact</h1>
       <div className="form-control w-full max-w-xs">
         <label className="label">
           <span className="label-text">Name</span>

@@ -1,62 +1,108 @@
 export default function Portfolio() {
   return (
     <>
-      <h1>Portfolio</h1>
-      <div className="carousel w-full">
-        <div id="slide1" className="carousel-item relative w-full">
-          <img
-            src="/images/stock/photo-1625726411847-8cbb60cc71e6.jpg"
-            className="w-full"
-          />
-          <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <a href="#slide4" className="btn btn-circle">
-              ❮
+      <h1 className="mb-5 text-9xl font-bold">Portfolio</h1>
+      <div className="container flex flex-row justify-center">
+        {/* portfolio item #1 */}
+        <div className="card w-96 bg-base-100 shadow-xl">
+          <figure>
+            <a href="https://delt-fitness-e-commerce-36c3e8da33f5.herokuapp.com/">
+              <img
+                src="src\assets\images\delt.jpg"
+                alt="Delt Supplies screenshot"
+              />
             </a>
-            <a href="#slide2" className="btn btn-circle">
-              ❯
-            </a>
+          </figure>
+          <div className="card-body">
+            <h2 className="card-title">
+              E-Commerce
+              <div className="badge badge-secondary">Featured</div>
+            </h2>
+            <p>If a dog chews shoes whose shoes does he choose?</p>
+            <div className="card-actions justify-end">
+              <div className="badge badge-outline">Full-stack</div>
+            </div>
           </div>
         </div>
-        <div id="slide2" className="carousel-item relative w-full">
-          <img
-            src="/images/stock/photo-1609621838510-5ad474b7d25d.jpg"
-            className="w-full"
-          />
-          <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <a href="#slide1" className="btn btn-circle">
-              ❮
+        {/* portfolio item #2 */}
+        <div className="card w-96 bg-base-100 shadow-xl">
+          <figure>
+            <a href="https://pwa-text-editor-install-4943d17f6d17.herokuapp.com/">
+              <img
+                src="src\assets\images\jate.jpg"
+                alt="text editor application"
+              />
             </a>
-            <a href="#slide3" className="btn btn-circle">
-              ❯
-            </a>
+          </figure>
+          <div className="card-body">
+            <h2 className="card-title">Text Editor</h2>
+            <p>If a dog chews shoes whose shoes does he choose?</p>
+            <div className="card-actions justify-end">
+              <div className="badge badge-outline">PWA</div>
+            </div>
           </div>
         </div>
-        <div id="slide3" className="carousel-item relative w-full">
-          <img
-            src="/images/stock/photo-1414694762283-acccc27bca85.jpg"
-            className="w-full"
-          />
-          <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <a href="#slide2" className="btn btn-circle">
-              ❮
+        {/* portfolio item #3 */}
+        <div className="card w-96 bg-base-100 shadow-xl">
+          <figure>
+            <a href="https://jujusoi.github.io/Project-1/index.html">
+              <img
+                src="src\assets\images\recipe.jpg"
+                alt="Recipe Radar screenshot"
+              />
             </a>
-            <a href="#slide4" className="btn btn-circle">
-              ❯
-            </a>
+          </figure>
+          <div className="card-body">
+            <h2 className="card-title">3rd party API application</h2>
+            <p>If a dog chews shoes whose shoes does he choose?</p>
+            <div className="card-actions justify-end">
+              <div className="badge badge-outline">PWA</div>
+            </div>
           </div>
         </div>
-        <div id="slide4" className="carousel-item relative w-full">
-          <img
-            src="/images/stock/photo-1665553365602-b2fb8e5d1707.jpg"
-            className="w-full"
-          />
-          <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-            <a href="#slide3" className="btn btn-circle">
-              ❮
+        {/* portfolio item #4 */}
+        <div className="card w-96 bg-base-100 shadow-xl">
+          <figure>
+            <a href="https://luanillustrates.github.io/luantran_wk06_weatherdash/">
+              <img src="src\assets\images\weather.jpg" alt="Shoes" />
             </a>
-            <a href="#slide1" className="btn btn-circle">
-              ❯
+          </figure>
+          <div className="card-body">
+            <h2 className="card-title">Weather Dashboard</h2>
+            <p>If a dog chews shoes whose shoes does he choose?</p>
+            <div className="card-actions justify-end">
+              <div className="badge badge-outline">PWA</div>
+            </div>
+          </div>
+        </div>
+        {/* portfolio item #5 */}
+        <div className="card w-96 bg-base-100 shadow-xl">
+          <figure>
+            <a href="https://luanillustrates.github.io/luantran_wk06_weatherdash/">
+              <img src="src\assets\images\delt.jpg" alt="Shoes" />
             </a>
+          </figure>
+          <div className="card-body">
+            <h2 className="card-title">Weather Dashboard</h2>
+            <p>If a dog chews shoes whose shoes does he choose?</p>
+            <div className="card-actions justify-end">
+              <div className="badge badge-outline">PWA</div>
+            </div>
+          </div>
+        </div>
+        {/* portfolio item #6 */}
+        <div className="card w-96 bg-base-100 shadow-xl">
+          <figure>
+            <a href="https://luanillustrates.github.io/luantran_wk06_weatherdash/">
+              <img src="src\assets\images\delt.jpg" alt="Shoes" />
+            </a>
+          </figure>
+          <div className="card-body">
+            <h2 className="card-title">Weather Dashboard</h2>
+            <p>If a dog chews shoes whose shoes does he choose?</p>
+            <div className="card-actions justify-end">
+              <div className="badge badge-outline">PWA</div>
+            </div>
           </div>
         </div>
       </div>

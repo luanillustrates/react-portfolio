@@ -2,6 +2,8 @@
 
 # REACT: personal portfolio
 
+![website's appearance and functionality preview](src\assets\images\screenshot.jpg)
+
 ## Table of Contents
 
 - [Description](#description)
@@ -30,7 +32,7 @@ npm run dev
 
 The application will be found on the local host server.
 
-For a live site, follow this Netlify link for a deployed live version.
+For a live site, follow this <a href="https://main--stellular-begonia-1ff0d2.netlify.app/" target="_blank">Netlify link</a> for a deployed live version.
 
 ## License
 
@@ -38,12 +40,13 @@ This project utilises the <a href="https://opensource.org/licenses/MIT" target="
 
 ## Credits
 
-<a href="https://github.com/coding-boot-camp/cautious-meme" target="_blank">Starter code base</a>
-
 Resources used:\
  <a href="https://nodejs.org/en/docs">nodejs</a>\
- <a href="https://developer.chrome.com/docs/workbox/service-worker-overview/">Service workers</a>\
- <a href="https://webpack.js.org/plugins/">webpack plugins</a>\
+ <a href="https://vitejs.dev/guide/">React Vite</a>\
+ <a href="https://legacy.reactjs.org/docs/react-dom.html">ReactDOM</a>\
+ <a href="https://reactrouter.com/en/main">React Router</a>\
+ <a href="https://react-pdf.org/">React-pdf</a>\
+ <a href="https://www.npmjs.com/package/validator">validator</a>\
 
 ## Ask Me
 

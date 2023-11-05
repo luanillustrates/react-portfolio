@@ -1,7 +1,22 @@
+import React, { useState } from 'react';
+import validator from 'validator';
+
 export default function Contact() {
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState(' ');
+  function handleEmail(event) {
+    let new_Email = event.target.value;
+    setEmail(new_Email);
+    if (!validator.isEmail(new_Email)) {
+      setMessage('Enter a valid email');
+    } else {
+      setMessage('');
+    }
+  }
+
   return (
     <>
-      <h1 className="mb-8 text-9xl font-bold">Contact</h1>
+      <h1 className="mb-8 ml-6 text-9xl font-bold">Contact</h1>
       <div className="container mx-auto mt-10 flex justify-center">
         <div className="form-control w-full max-w-xs">
           <label className="label">
@@ -15,11 +30,16 @@ export default function Contact() {
           <label className="label">
             <span className="label-text">Email</span>
           </label>
-          <input
-            type="text"
-            placeholder="email"
-            className="input input-bordered w-full max-w-xs"
-          />
+          <div className="form-group">
+            <input
+              type="email"
+              placeholder="email"
+              className="input input-bordered w-full max-w-xs"
+              value={email}
+              onChange={handleEmail}
+            />
+            <span style={{ fontWeight: 'bold', color: 'red' }}>{message}</span>
+          </div>
           <label className="label">
             <span className="label-text">Enquiry</span>
           </label>

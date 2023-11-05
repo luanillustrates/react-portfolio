@@ -14,7 +14,7 @@ export default function Resume() {
 
   return (
     <>
-      <h1 className="mb-8 text-9xl font-bold">Resumé</h1>
+      <h1 className="mb-8 ml-6 text-9xl font-bold">Resumé</h1>
       <div className="flex justify-center">
         <Document file={pdf} onLoadSuccess={onDocumentLoadSuccess}>
           {Array.from(new Array(numPages), (el, index) => (

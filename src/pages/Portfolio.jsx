@@ -66,7 +66,7 @@ const projects = [
 export default function Portfolio() {
   return (
     <>
-      <h1 className="mb-8 text-9xl font-bold">Portfolio</h1>
+      <h1 className="mb-8 ml-6 text-9xl font-bold">Portfolio</h1>
       <div className="container mx-auto flex flex-wrap justify-center">
         {projects.map((project) => {
           return (

@@ -1,7 +1,7 @@
 export default function Contact() {
   return (
     <>
-      <h1 className="mb-5 text-9xl font-bold">Contact</h1>
+      <h1 className="mb-8 text-9xl font-bold">Contact</h1>
       <div className="container mx-auto mt-10 flex justify-center">
         <div className="form-control w-full max-w-xs">
           <label className="label">
@@ -27,6 +27,7 @@ export default function Contact() {
             className="textarea textarea-bordered"
             placeholder="enter your query"
           ></textarea>
+          <button className="btn btn-outline btn-primary mt-10 ">Submit</button>
         </div>
       </div>
     </>

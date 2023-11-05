@@ -1,6 +1,8 @@
 import { Link, useMatch, useResolvedPath } from 'react-router-dom';
 import { useState } from 'react';
 
+import logo from '../assets/images/logo_nav.png';
+
 export default function Navbar() {
   const { isNavOpen, setIsNavOpen } = useState(false);
 
@@ -9,7 +11,7 @@ export default function Navbar() {
       <nav classNameName="bg-white border-gray-200 dark:bg-gray-900">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <a href="/" className="flex items-center">
-            <img src="src\assets\images\logo_nav.png" alt="" width="120em" />
+            <img src={logo} alt="" width="120em" />
           </a>
           <button
             data-collapse-toggle="navbar-default"

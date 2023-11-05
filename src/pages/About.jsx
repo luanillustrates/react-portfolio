@@ -1,3 +1,5 @@
+import about from '../assets/images/about.jpg';
+
 export default function About() {
   return (
     <>
@@ -13,7 +15,7 @@ export default function About() {
         </div>
         <div className="w-full">
           <img
-            src="src\assets\images\about.jpg"
+            src={about}
             alt="profile picture"
             className="mask mask-parallelogram-3"
           />

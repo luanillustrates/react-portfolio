@@ -2,7 +2,7 @@
 
 # REACT: personal portfolio
 
-![website's appearance and functionality preview](src\assets\images\screenshot.jpg)
+![website's appearance and functionality preview](.\assets\images\screenshot.jpg)
 
 ## Table of Contents
 

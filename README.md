@@ -46,7 +46,7 @@ Resources used:\
  <a href="https://legacy.reactjs.org/docs/react-dom.html">ReactDOM</a>\
  <a href="https://reactrouter.com/en/main">React Router</a>\
  <a href="https://react-pdf.org/">React-pdf</a>\
- <a href="https://www.npmjs.com/package/validator">validator</a>\
+ <a href="https://www.npmjs.com/package/validator">validator</a>
 
 ## Ask Me
 
